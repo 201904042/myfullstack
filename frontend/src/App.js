@@ -1,7 +1,10 @@
 import './App.css';
 
 function App() {
-  return <div>hello</div>
+  return <div>
+    backend address~~ =
+    [{process.env.REACT_APP_SERVER}]
+  </div>
 }
 
 export default App;
